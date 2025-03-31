@@ -23,5 +23,10 @@ public class Customer {
     public String getCountry() {
         return this.country;
     }
+
+    @Override 
+    public String toString() {
+        return String.format("Name: %s; Address: %s; Country: %s", this.name, this.address, this.country);
+    }
    
 }

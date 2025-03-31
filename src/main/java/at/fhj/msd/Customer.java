@@ -17,11 +17,11 @@ public class Customer {
     }
 
     public String getAddress() {
-        return this.name;
+        return this.address;
     }
 
     public String getCountry() {
-        return this.name;
+        return this.country;
     }
    
 }

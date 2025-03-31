@@ -5,8 +5,10 @@ import java.util.List;
 
 public class App {
     public static void main(String[] args) {
+
+        Address a1 = new Address("Algersdorfer Straße", "G", "53", "8020", "2", "6");
         
-        Customer c1 = new Customer("Umejr Dzinovic", "Algersdorfer Straße 53", "Austria");
+        Customer c1 = new Customer("Umejr Dzinovic", a1, "Bosnia");
         System.out.printf("Name: %s; Address: %s, Country: %s\n", c1.getName(), c1.getAddress(), c1.getCountry());
 
         OrderItem o1 = new OrderItem("551", 3, 15);

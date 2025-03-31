@@ -3,10 +3,10 @@ package at.fhj.msd;
 public class Customer {
 
     private String name;
-    private String address;
+    private Address address;
     private String country;
 
-    public Customer(String name, String address, String country) {
+    public Customer(String name, Address address, String country) {
         this.name = name;
         this.address = address;
         this.country = country;
@@ -16,7 +16,7 @@ public class Customer {
         return this.name;
     }
 
-    public String getAddress() {
+    public Address getAddress() {
         return this.address;
     }
 

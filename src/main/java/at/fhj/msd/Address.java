@@ -18,6 +18,12 @@ public class Address {
         this.doorNumber = doorNumber;
     }
 
-    
+    @Override 
+    public String toString() {
+        return String.format("Street: %s; Place: %s; House-number: %s; Zip-Code: %s, floor: %s, doornumber: %s", 
+            this.street, this.place, this.houseNumber, this.zipCode, this.floor, this.doorNumber);
+    }
+
+
     
 }

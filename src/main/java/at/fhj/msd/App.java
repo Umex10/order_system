@@ -18,10 +18,9 @@ public class App {
         OrderItem o3 = new OrderItem("22", 2, 5);
         OrderItem o4 = new OrderItem("1", 7, 10);
 
-        
-
         List<OrderItem> order = new ArrayList<>(List.of(o1, o2, o3, o4));
         Order or = new Order(1, order, c1);
+        
         System.out.printf("Total Price of whole order: %d\n", or.getTotalPrice());
         System.out.printf("Customer: %s", or.getCustomer().toString());
 
